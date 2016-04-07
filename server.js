@@ -8,7 +8,8 @@ http.createServer(function(req, res){
   var body = 
     '<h1>Hello '+name+'</h1> \
      <p>This is a demo for <em>blue-green deployment</em></p> \
-     <p>from server: '+hostname+'</p>';
+     <p>from server: '+hostname+'</p> \
+     <p>Version: v1';
   res.end(body);
 }).listen(port, function(){
   console.log('Server running at port ' + port);
