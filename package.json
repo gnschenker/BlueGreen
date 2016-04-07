@@ -1,0 +1,11 @@
+{
+  "name": "blue-green",
+  "version": "1.0.0",
+  "description": "Sample node js application to demo blue-green deployment in Docker cloud",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "author": "Gabriel Schenker",
+  "license": "ISC"
+}
